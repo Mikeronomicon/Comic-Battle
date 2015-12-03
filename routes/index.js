@@ -18,7 +18,6 @@ router.get('/', function(req, res, next) {
 //});
 
 router.post('components/signup', function(request, response) {
-	console.log("youve signed up");
 	res.render('index', {
 		title: 'Comic Rock Paper Scissors'
 	});
@@ -26,7 +25,7 @@ router.post('components/signup', function(request, response) {
 
 router.get('/teams', function(req, res, next) {
 	res.render('select', {
-		title: 'Select Yo Teams'
+		title: 'Select Your Teams'
 	});
 });
 
